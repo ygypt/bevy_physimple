@@ -105,7 +105,7 @@ fn startup(
             ..Default::default()
         })
         ;
-    // Spawn another cube without contuous collision
+    // Spawn another cube without continuous collision
     coms
         .spawn_bundle(SpriteBundle {
             sprite: Sprite::new(Vec2::splat(35.0)),
